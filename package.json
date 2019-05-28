@@ -1,0 +1,22 @@
+{
+  "name": "candidate-test",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Doctolib developer test.",
+  "scripts": {
+    "db:migrate": "knex migrate:latest",
+    "db:rollback": "knex migrate:rollback",
+    "test": "yarn db:migrate && jest"
+  },
+  "dependencies": {
+    "knex": "^0.14.6",
+    "moment": "^2.22.1",
+    "sqlite3": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.1.0"
+  }
+}
