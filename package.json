@@ -9,7 +9,7 @@
     "test": "yarn db:migrate && jest"
   },
   "dependencies": {
-    "knex": "^0.14.6",
+    "knex": "^0.19.5",
     "moment": "^2.22.1",
     "sqlite3": "^4.0.0"
   },
